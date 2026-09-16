@@ -32,14 +32,13 @@
 
     /* Linting */
     "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-
-    "baseUrl": "./src",
     "paths": {
-      "mp4box": ["types/mp4box"],
-      "@/*": ["*"]
+      "mp4box": ["src/types/mp4box"],
+      "@/*": ["src/*"]
     }
   },
   "include": ["src"],
